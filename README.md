@@ -1,6 +1,6 @@
 <!-- ![logo](https://github.com/vishal8113/vishal8113/blob/main/enhanced.jpeg) -->
 <h1 align="auto">I'm Om Vatsal!<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Forig00.deviantart.net%2Fab08%2Ff%2F2016%2F212%2F9%2F9%2Fdancing_eevee_by_real_angelthegamer-dac5eew.png&f=1&nofb=1&ipt=44339862e44327b56c47ff46f6d45d64f78fa148327e4323fcd375a3983f7b0e&ipo=images" width="50"></h1>
-<img align='right' alt="developer" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="200">
+<img align='right' alt="developer" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="275">
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=नमस्ते%20(Namaste)🙏🏻,%20Nice%20to%20have%20you%20here!!;I'm%20a%20Student%20and%20Hobbyist%20Programmer.;Always%20learning%20new%20things%20and%20growing🌱!&font=Cursive&center=true&width=600&height=50&color=f75c7e&vCenter=true&size=24" alt="Welcome!">
 </p>
