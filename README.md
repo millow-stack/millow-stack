@@ -13,7 +13,7 @@
   <code>🚀👨‍💻 #HappyCoding</code>
 </span>
 
-- <b>Experience:</b> 3 Years;
+- <b>Experience:</b> 3 Years (2020-2023);
 - <b>Expertise:</b> Python;
 - Currently persuing a B.Tech degree program in Computer Science & Engineering.
 - I am interested in research and development.
