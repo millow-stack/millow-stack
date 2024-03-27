@@ -27,6 +27,7 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=millow-stack&currStreakNum=2FD3EB&fire=pink&sideLabels=F00&theme=nightowl)
 ![](https://github.com/millow-stack/github-stats-transparent/blob/output/generated/overview.svg)
 <br/>
+![](https://leetcard.jacoblin.cool/myofficial7675)
 ![](https://github-readme-activity-graph.vercel.app/graph?username=millow-stack&theme=dracula)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=millow-stack&theme=dark&layout=compact&align=right&width=40%)
 
