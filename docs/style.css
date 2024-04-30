@@ -76,3 +76,33 @@ ul {
         width: 95%;
     }
 }
+
+/* Print Styles */
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    header, section {
+        page-break-inside: avoid;
+    }
+    header, #about, #experience, #education {
+        padding: 10px 0;
+    }
+    header {
+        background-color: #fff;
+        color: #000;
+    }
+    a[href]:after {
+        content: none !important;
+    }
+    /* Hide elements not needed for print */
+    button, .print-hide {
+        display: none !important;
+    }
+}
