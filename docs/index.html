@@ -3,41 +3,387 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>Om Vatsal - Resume</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong|noto">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* General body styles */
+        *{
+            outline: none;
+            user-select: auto;
+        }
+
+        ::selection{
+            text-decoration: underline wavy #313131;
+        }
+
+       /* .social{
+            text-decoration: none;
+            background: transparent;
+            color: #333;
+            display: inline-block;
+            text-align: center;
+            overflow: hidden;
+            padding: 8px;
+            transition: all .25s ease-in-out .25s;
+            height: 20px;
+            width: auto;
+            border-radius: 20px;
+            margin: auto;
+        }
+
+        .social * {
+            height:20px;
+            display: inline-block;
+        }
+
+        .social:hover{
+            border-radius: 20px;
+            border: 0.9px solid #111;
+            background: lightgrey;
+            color: #eee;
+        }*/
+
+        body {
+            font-family: 'Lato', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAJ9JREFUKFM1kIGNxEAIAz1t0AZ1fOnbxrXhewy3ihRivDAxoD+ZJ1kWysEfWQIkeyWgLDfiRSNPjJ462o4ogbDb0tuhfDIpE2+JRM3X9I1aHvMY1cJvSXKHmmo3IC9fa6bHtXp45xzz6C1iqnCu84zHYchq5JoazWp+uGwwlwTTwJW33dJGl833K0pzaWv1QDXwzricF9NUNRn+otE/9xehN1TM7fGt3gAAAABJRU5ErkJggg==) repeat, linear-gradient(45deg, rgba(2,0,36,0.3) 0%, rgba(9,9,121,0.3) 35%, rgba(0,212,255,0.3) 100%);
+            background-attachment: fixed; /*local;*/
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container for all content */
+        .container {
+            width: 80%;
+            margin: auto;
+            margin-top: 10vh;
+            margin-bottom: 10vh;
+            overflow: hidden;
+            padding: 0 20px;
+            background: #f7f7f7;
+            border-radius: 15px;
+            box-shadow:
+              0px 0px 2.7px rgba(0, 0, 0, 0.05),
+              0px 0px 6.9px rgba(0, 0, 0, 0.071),
+              0px 0px 14.2px rgba(0, 0, 0, 0.089),
+              0px 0px 29.2px rgba(0, 0, 0, 0.11),
+              0px 0px 80px rgba(0, 0, 0, 0.16)
+            ;
+        }
+
+        /* Header styles */
+        header {
+            background: auto;
+            color: auto;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 1.7px solid grey;
+        }
+
+        header h1 {
+            margin: 0px 0;
+            font-size: 2.5em;
+            font-family: "Trirong", serif;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-weight: 300;
+            text-decoration: italics;
+        }
+
+        /* Section styles */
+        section {
+            padding: 2px 0;
+            margin-bottom: 20px;
+            border-bottom: 1px dashed silver;
+        }
+
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+/*          width: 100%;*/
+        }
+
+        td{
+          border: none;
+/*          text-align: left;*/
+          padding: 8px;
+        }
+
+        /* About Me section */
+        #about {
+            
+        }
+
+        #experience h3 {
+            margin-top: 0;
+        }
+
+        /* Job and education titles */
+        .job h3, .education h3 {
+            font-size: 1.2em;
+            margin: 0;
+            color: #333;
+        }
+
+        /* List styles */
+        ul {
+            list-style: square inside;
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+
+        .social {
+            display: inline-block; /* Display links inline */
+            margin-right: 10px; /* Add space between links */
+            text-decoration: none; /* Remove underline from links */
+            color: #333; /* Set link color */
+            background-color: #fff; /* Set background color for links */
+            border: 1px solid #ccc; /* Add border */
+            padding: 8px 12px; /* Add padding */
+            border-radius: 5px; /* Add border radius */
+            transition: all 0.3s ease; /* Add transition effect */
+            width: initial;
+            max-width: calc(100%/7);
+            overflow: hidden;
+/*            height: 20px;*/
+        }
+
+        .social:hover {
+            background-color: #ddd; /* Change background color on hover */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+        }
+
+        .social img {
+            width: 20px; /* Set image width */
+            height: auto; /* Maintain aspect ratio */
+            vertical-align: middle; /* Align images vertically */
+            margin-right: 5px; /* Add space between image and text */
+        }
+
+        col:not(#about) {
+          columns: 2 auto;
+        }
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 0 10px;
+            }
+        }
+
+        ifram#cv{
+/*            display: none;*/
+            height: 0px;
+            width:0px;
+            visibility: hidden;
+        }
+
+        /* Print Styles */
+        @media print {
+            *:not(#cv) {
+                display: none;
+                border-radius: 0;
+                margin: 0;
+                padding: 0;
+                visibility: hidden;
+                content: none;
+            }
+           #cv {
+                visibility: visible !important;
+                display: block;
+                left: 0;
+                top: 0;
+                position: absolute;
+                height: 100% !important;
+                width:100% !important;
+                margin: 0;
+                padding: 0;
+                box-shadow: none;
+            }
+        }
+    </style>
 </head>
 <body>
+    <iframe id="cv" src="1.pdf"></iframe>
     <div class="container">
         <header>
-            <h1>Your Name</h1>
-            <p>Job Title</p>
+            <h1>Om Vatsal</h1>
+            <p>
+                <a href="https://www.linkedin.com/in/om-vatsal/" class="social" target="_blank" rel="noopener noreferrer"><img src="linkedin-rounded-svgrepo-com.svg">/om-vatsal</a>
+                <a href="https://github.com/millow-stack" class="social" target="_blank" rel="noopener noreferrer"><img src="github-142-svgrepo-com.svg">/millow-stack</a>
+                <a href="mailto:myofficial7675@gmail.com" class="social" target="_blank" rel="noopener noreferrer"><img src="mail-alt-svgrepo-com.svg">@myofficial7675</a>
+                <a href="tel:1234567890" class="social" target="_blank" rel="noopener noreferrer"><img src="phone-svgrepo-com.svg">+91 1234567890</a>
+                <a href="geo:0,0?q=my+location" class="social" target="_blank" rel="noopener noreferrer"><img src="location-pin-svgrepo-com.svg">Ranchi, India</a>
+            </p>
         </header>
         <section id="about">
-            <h2>About Me</h2>
-            <p>Your brief introduction goes here.</p>
+            <h2>Professional Summary</h2>
+            <p>Your brief introduction goes here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>Job Title</h3>
-                <p>Company Name</p>
-                <p>Date</p>
-                <ul>
-                    <li>Description of responsibilities and achievements.</li>
-                </ul>
-            </div>
-            <!-- Add more job sections as needed -->
-        </section>
-        <section id="education">
-            <h2>Education</h2>
-            <div class="education">
-                <h3>Degree</h3>
-                <p>School/University Name</p>
-                <p>Date</p>
-            </div>
-            <!-- Add more education sections as needed -->
-        </section>
+        <col>
+            <section id="experience">
+                <h2>Experience</h2>
+                <table class="job">
+                  <tr>
+                    <td>2024-Present</td>
+                    <td>
+                        <b>Senior Manager</b><br/>
+                        <i>orem ipsum, ME</i>
+                        <ul>
+                            <li>Description of responsibilities and achievements.</li>
+                            <li>Description of responsibilities and achievements.</li>
+                            <li>Description of responsibilities and achievements.</li>
+                            <li>Description of responsibilities and achievements.</li>
+                        </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2021-2024</td>
+                    <td>
+                        <b>Senior Manager</b><br/>
+                        <i>orem ipsum, ME</i>
+                        <ul>
+                            <li>Description of responsibilities and achievements.</li>
+                            <li>Description of responsibilities and achievements.</li>
+                            <li>Description of responsibilities and achievements.</li>
+                            <li>Description of responsibilities and achievements.</li>
+                        </ul>
+                    </td>
+                  </tr>
+                </table>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <table class="job">
+                  <tr>
+                    <td>2024-Present</td>
+                    <td>
+                        <b>Bachlor of Technology, Computer Science</b><br/>
+                        <i>Delhi Technological University, Delhi</i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2024-Present</td>
+                    <td>
+                        <b>Bachlor of Science, Data Science and Application</b><br/>
+                        <i>Indian Institute of Technology, Madras</i>
+                    </td>
+                  </tr>
+                </table>
+                <!-- Add more education sections as needed -->
+            </section>
+            <section id="certifications">
+                <h2>Certifications</h2>
+                <table class="certifications">
+                  <tr>
+                    <td>2024-Present</td>
+                    <td>
+                        <b>Bachlor of Technology, Computer Science</b><br/>
+                        <i>Delhi Technological University, Delhi</i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2024-Present</td>
+                    <td>
+                        <b>Bachlor of Science, Data Science and Application</b><br/>
+                        <i>Indian Institute of Technology, Madras</i>
+                    </td>
+                  </tr>
+                </table>            <!-- Add more education sections as needed -->
+            </section>
+            <section id="projects">
+                <h2>Projects/Patents/Pubications</h2>
+                <table class="projects">
+                  <tr>
+                    <td>2024-Present</td>
+                    <td>
+                        <b><a href="https://github.com/milow-stack/typingSpeed">Typing Speed Recorder</a></b><br/>
+                        <i>Independent Project</i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2024-Present</td>
+                    <td>
+                        <b><a href="https://github.com/milow-stack/typingSpeed">Typing Speed Recorder</a></b><br/>
+                        <i>Independent Project</i>
+                    </td>
+                  </tr>
+                </table>
+            </section>
+            <section id="skill">
+                <h2>Skills</h2>
+                <div class="skill">
+                    <ul>
+                        <li>Python Programming Language (<progress value="95" max="100"></progress>)</li>
+                        <li>JavaScript (<progress value="75" max="100"></progress>)</li>
+                        <li>Linux Operating System (<progress value="75" max="100"></progress>)</li>
+                    </ul>
+                </div>
+                <!-- Add more education sections as needed -->
+            </section>
+            <section id="languages">
+                <h2>Languages</h2>
+                <div class="language">
+                    <ul>
+                        <li>English (<progress value="95" max="100"></progress>)</li>
+                        <li>Hindi (<progress value="95" max="100"></progress>)</li>
+                    </ul>
+                </div>
+                <!-- Add more education sections as needed -->
+            </section>
+            <section id="interests">
+                <h2>Interests</h2>
+                <div class="education">
+                    <h3>Degree</h3>
+                    <p>School/University Name</p>
+                    <p>Date</p>
+                </div>
+                <!-- Add more education sections as needed -->
+            </section>
+        </col>
     </div>
     <script src="script.js"></script>
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Print button functionality
+        function printResume() {
+            window.print();
+        }
+
+        // Event listener for print button
+        // document.addEventListener('DOMContentLoaded', function() {
+        //     const printButton = document.createElement('button');
+        //     printButton.textContent = 'Print Resume';
+        //     printButton.addEventListener('click', printResume);
+        //     document.body.appendChild(printButton);
+        // });
+
+        // Apply specific styles when printing
+        window.onbeforeprint = function() {
+            document.body.classList.add('print-version');
+        };
+        window.onafterprint = function() {
+            document.body.classList.remove('print-version');
+        };
+    </script>
 </body>
 </html>
