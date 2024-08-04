@@ -1,8 +1,8 @@
 <!-- ![logo](https://avatars.githubusercontent.com/u/68697739?v=4) -->
 <h1 align="center">I'm Om Vatsal!<img src="cutie.gif" width="50"></h1>
-<img align='right' alt="developer" src="https://raw.githubusercontent.com/millow-stack/millow-stack/main/working.gif" width="200">
+<img align='right' alt="developer" src="working.gif" width="200">
 <p align="auto">
-  <img src="https://raw.githubusercontent.com/millow-stack/millow-stack/main/letter.svg" alt="Welcome!">
+  <img src="letter.svg" alt="Welcome!">
 </p>
 
 ![✍️](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
