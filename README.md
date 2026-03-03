@@ -94,6 +94,45 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/jira/jira-original-wordmark.svg" title="Jira" alt="Jira" width="30" height="30"/>
 </div>
 
+## 💼 Experience & Leadership
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### 👥CyphersNova Community
+
+**Admin team and co-founder** *(Ongoing)*
+
+---
+
+💻 Developing **business level projects**
+⚙️ Conducting **events** and **speaker sessions**
+📅 Supported event infrastructure
+
+**Focus:**
+Creating unique projects • Technology • Events and speaker sessions from experts
+
+</td>
+
+<td width="50%" valign="top">
+
+### ⚙️ Kolino
+
+**Technical Executive** *(Ongoing)*
+
+---
+
+🛠️ Building **IoT network & control systems for Kolino Autonomous Drones**
+
+**Focus:**
+Backend development • Event support
+
+</td>
+</tr>
+</table>
+
 ## 🌐 Social:
 [![GitHub Thaiane](https://img.shields.io/github/followers/millow-stack?label=follow&style=social)](https://github.com/millow-stack)
 [![Linkedin Badge](https://img.shields.io/badge/-Om%20Vatsal-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/om-vatsal/)](https://www.linkedin.com/in/om-vatsal/)
