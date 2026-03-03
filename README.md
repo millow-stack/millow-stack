@@ -127,7 +127,7 @@ Creating unique projects • Technology • Events and speaker sessions from exp
 🛠️ Building **IoT network & control systems for Kolino Autonomous Drones**
 
 **Focus:**
-Backend development • Event support
+Backend Development • IoT • Computer Network • Edge Computing
 
 </td>
 </tr>
