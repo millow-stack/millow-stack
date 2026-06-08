@@ -1,5 +1,5 @@
 <!-- ![logo](https://avatars.githubusercontent.com/u/68697739?v=4) -->
-<h1 align="center">I'm Om Vatsal!<img src="cutie.gif" width="50"></h1>
+<h1 align="center">I'm Kodesha!<img src="cutie.gif" width="50"></h1>
 <img align='right' alt="developer" src="working.gif" width="200">
 <p align="auto">
   <img src="letter.svg" alt="Welcome!">
@@ -9,7 +9,7 @@
 
 ### 💫 About Me:
 <span style="background:grey; display:block; border-radius: 5px; border: 1px dashed #111; padding:8px; width:100vh; height:250px; overflow:scroll;" markdown="1">
-  Hello Folks! It's Om Vatsal this side, your friendly neighborhood coder and enthusiast for all things tech! Delighted to welcome you to my corner of GitHub, where innovation meets collaboration. As an avid advocate for clean code and creative solutions, I'm thrilled to share my passion for software development with fellow enthusiasts like you. Join me on this exciting journey as we explore the endless possibilities of technology together. Let's code, create, and make magic happen!
+  Hello Folks! It's Kodesha this side, your friendly neighborhood coder and enthusiast for all things tech! Delighted to welcome you to my corner of GitHub, where innovation meets collaboration. As an avid advocate for clean code and creative solutions, I'm thrilled to share my passion for software development with fellow enthusiasts like you. Join me on this exciting journey as we explore the endless possibilities of technology together. Let's code, create, and make magic happen!
   <code>🚀👨‍💻 #HappyCoding</code>
 </span>
 
